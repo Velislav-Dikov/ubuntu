@@ -77,7 +77,7 @@
             "value": "Somepass200404!%"
         },
         "diagnosticsStorageAccountNamePrefix": {
-            "value": "tailspinspacegamergdiag"
+            "value": "tailspin"
         },
         "diagnosticsStorageAccountId": {
             "value": "Microsoft.Storage/storageAccounts/tailspinspacegamergdiag"
