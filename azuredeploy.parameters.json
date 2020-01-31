@@ -74,7 +74,7 @@
             "value": "veso"
         },
         "adminPassword": {
-            "value": "Somepass200404!%"
+            "value": ""
         },
         "diagnosticsStorageAccountNamePrefix": {
             "value": "tailspin"
