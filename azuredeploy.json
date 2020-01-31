@@ -85,7 +85,7 @@
         "nsgId": "[resourceId(resourceGroup().name, 'Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroupName'))]",
         "vnetId": "[resourceId(resourceGroup().name,'Microsoft.Network/virtualNetworks', parameters('virtualNetworkName'))]",
         "subnetRef": "[concat(variables('vnetId'), '/subnets/', parameters('subnetName'))]",
-        "storageAccountName": "[concat('diagnosticsStorageAccountNamePrefix', substring(uniqueString(subscription().subscriptionId), 0, 5))]"
+        "storageAccountName": "[concat(parameters('diagnosticsStorageAccountNamePrefix'), substring(uniqueString(subscription().subscriptionId), 0, 5))]"
     },
     "resources": [
         {
