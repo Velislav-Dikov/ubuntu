@@ -76,7 +76,7 @@
         "adminPassword": {
             "value": "Somepass200404!%"
         },
-        "diagnosticsStorageAccountName": {
+        "diagnosticsStorageAccountNamePrefix": {
             "value": "tailspinspacegamergdiag"
         },
         "diagnosticsStorageAccountId": {
